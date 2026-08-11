@@ -5,7 +5,7 @@
 ## 1. Skill curator: безопасен? отключаем?
 
 Skills безопасны настолько, насколько безопасен сам hermes и его sandbox.
-Настоятельная рекомендация: разворачивайте его в Docker-контейнере (см README и [docs](https://hermes-agent.nousresearch.com/docs/user-guide/docker))
+Настоятельная рекомендация: разворачивайте его в Docker-контейнере (см [README](https://github.com/bahrs/hermes-brief#развёртывание-на-vps-через-docker-compose) и [docs](https://hermes-agent.nousresearch.com/docs/user-guide/docker))
 
 В отличие от OpenClaw, где упор на community skills, [Hermes фиксирует сложные паттерны сам](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills#when-the-agent-creates-skills).
 
@@ -25,7 +25,7 @@ Harness - в первую очередь оболочка для agent loop, к�
 Материал для дополнительного чтения: 
 - безопасность Hermes ([official docs](https://hermes-agent.nousresearch.com/docs/user-guide/security)) 
 - дополнительная защита secrets при помощи `egress_proxy` ([docs](https://hermes-agent.nousresearch.com/docs/user-guide/egress/iron-proxy))
-В банке, видимо, пока аудит КБ не пройдет - не одобрят для контура Сигма.
+В банке, видимо, пока аудит КБ не пройдет - не одобрят для внутреннего пользования.
 
 ## 3.  Стоимость использования?
 

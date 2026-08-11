@@ -5,7 +5,7 @@
 ## 1. Skill curator: безопасен? отключаем?
 
 Skills безопасны настолько, насколько безопасен сам hermes и его sandbox.
-Настоятельная рекомендация: разворачивайте его в Docker-контейнере [[hermes_mapp_guide.md#2.1 Установка в docker-контейнере]], ([docs](https://hermes-agent.nousresearch.com/docs/user-guide/docker))
+Настоятельная рекомендация: разворачивайте его в Docker-контейнере (см README и [docs](https://hermes-agent.nousresearch.com/docs/user-guide/docker))
 
 В отличие от OpenClaw, где упор на community skills, [Hermes фиксирует сложные паттерны сам](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills#when-the-agent-creates-skills).
 
